@@ -1,0 +1,1880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div id="top" class="topheader">
+      <div class="container">
+        <nav class="topheader__nav">
+          <ul class="topheader__list">
+            <li class="topheader__item"><a href="#" class="topheader__link">Про компанию</a></li>
+            <li class="topheader__item"><a href="#" class="topheader__link">Контакты</a></li>
+            <li class="topheader__item"><a href="#" class="topheader__link">Новости</a></li>
+          </ul>
+          <ul class="topheader__list-mail">
+            <li class="topheader__item"><a href="#" class="topheader__link"><img src="img/header/mail.svg" alt="">
+                Обратная связь</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <nav class="header__nav">
+      <div class="container">
+        <ul class="header__list">
+          <li class="header__item-logo">
+            <div class="header__logo">
+              <a href="#"><img src="img/cloubblue.svg" alt="" class="header__logo-img"></a>
+            </div>
+          </li>
+          <li class="header__item-catalog">
+            <a href="#" class="header__catalog-btn">
+              <img src="img/header/inventory.svg" alt="">
+              <span>Каталог товаров</span>
+            </a>
+          </li>
+          <li class="header__item-screac">
+            <form action="text">
+              <input class="header__input" type="text" placeholder="Поиск...">
+              <input class="header__btn" type="button">
+            </form>
+          </li>
+          <li class="header__item-link">
+            <a href="#" class="header__link">Заказы</a>
+          </li>
+          <li class="header__item">
+            <div class="header__item-like">
+              <a href="#"><img src="img/header/default.svg" alt=""></a>
+            </div>
+            <div class="header__item-ves">
+              <a href="#"><img src="img/header/Vector.svg" alt=""></a>
+            </div>
+            <div class="header__item-kor">
+              <a href="#">
+                <img src="img/header/Group.svg" alt="">
+                <div class="header__kor-item">
+                  <p>Корзина</p>
+                  <span>(0)</span>
+                </div>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="sidebar_top" class="sidebar">
+    <div class="sidebar__menu">
+      <div class="sidebar__menu-img">
+        <img src="img/menu-sidebar.svg" alt="" srcset="">
+      </div>
+      <div class="sidebar__icon">
+        <img class="sidebar__icon-img" src="img/photo.png" alt="" srcset="">
+      </div>
+      <div class="sidebar__price">
+        <div class="sidebar__price-usd">
+          <p class="sidebar__price-title">USD</p>
+          <p class="sidebar__price-subtitle">28.00</p>
+        </div>
+        <div class="sidebar__price-eur">
+          <p class="sidebar__price-title">EUR</p>
+          <p class="sidebar__price-subtitle">33.00</p>
+        </div>
+      </div>
+      <div class="slidebar__icon">
+        <a href="#" class="slidebar__drop-right">
+          <div class="slidebar__icon-img">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20.5713 8.71429V21.8501C20.5722 21.9815 20.5473 22.1117 20.4979 22.2334C20.4485 22.355 20.3756 22.4658 20.2834 22.5593C20.1911 22.6528 20.0814 22.7272 19.9604 22.7784C19.8395 22.8295 19.7096 22.8562 19.5783 22.8571H3.56429C3.3011 22.8571 3.04868 22.7527 2.86249 22.5667C2.67629 22.3806 2.57155 22.1283 2.57129 21.8651V2.70629C2.57129 2.16929 3.01829 1.71429 3.56929 1.71429H13.5713V7.71429C13.5713 7.9795 13.6766 8.23386 13.8642 8.42139C14.0517 8.60893 14.3061 8.71429 14.5713 8.71429H20.5713ZM20.5713 6.71429H15.5713V1.71729L20.5713 6.71429ZM7.57129 7.71429V9.71429H10.5713V7.71429H7.57129ZM7.57129 11.7143V13.7143H15.5713V11.7143H7.57129ZM7.57129 15.7143V17.7143H15.5713V15.7143H7.57129Z"
+                fill="#12506D" />
+            </svg>
+          </div>
+          <div class="slidebar__content-contract">
+            <div class="content__header content_border">
+              <p>Договора</p>
+            </div>
+            <div class="profile__dropdowns-item content__dropdowns">
+              <select name="select1" class="profile__dropdowns-select content_select">
+                <option class="content__text"><p>Тов Гига Транс (01102)</p></option>
+                <option class="content__text"><p>Тов Гига Транс (01102)</p></option>
+                <option class="content__text"><p>Тов Гига Транс (01102)</p></option>
+              </select>
+            </div>
+            <div class="content__info">
+              <p>Основной договор</p>
+              <p class="active">Основной договор с НДС</p>
+              <p>Оптовая Евро</p>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="slidebar__drop-right">
+          <div class="slidebar__icon-img">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M12.1429 13C14.9787 13 17.2857 10.757 17.2857 8C17.2857 5.24295 14.9787 3 12.1429 3C9.30704 3 7 5.24295 7 8C7 10.757 9.30704 13 12.1429 13Z"
+                  fill="#12506D" />
+                <path
+                  d="M19.0853 16.3989C19.0831 16.3982 19.0788 16.3966 19.0765 16.3961C18.3891 16.2301 16.284 15.939 16.284 15.939C16.0464 15.8667 15.7925 15.9911 15.707 16.2229L12.5384 24.8158C12.3556 25.3114 11.6463 25.3114 11.4635 24.8158L8.29497 16.2229C8.22597 16.0357 8.04725 15.9184 7.85573 15.9184C7.81033 15.9184 5.64592 16.2183 4.92535 16.3954C2.95632 16.8793 1.71436 18.7931 1.71436 20.7875V27.9374C1.71436 29.0089 2.5932 29.8775 3.67725 29.8775H20.3229C21.4069 29.8775 22.2858 29.0089 22.2858 27.9374V20.7638C22.2857 18.778 20.9951 17.0157 19.0853 16.3989Z"
+                  fill="#12506D" />
+                <path
+                  d="M13.2847 16.1139C13.1488 15.9838 12.9502 15.9184 12.7493 15.9184H11.2505C11.0496 15.9184 10.8509 15.9838 10.7151 16.1139C10.5047 16.3152 10.4742 16.6061 10.6235 16.8334L11.4247 17.8945L9.7959 21.7959L11.7883 25.4694C11.8603 25.643 12.1397 25.643 12.2117 25.4694L14.072 21.7959L12.5752 17.8945L13.3765 16.8334C13.5256 16.6061 13.495 16.3152 13.2847 16.1139Z"
+                  fill="#12506D" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </a>
+        <a href="#" class="slidebar__drop-right">
+          <div class="slidebar__icon-img">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22ZM8.5 14V16H11V18H13V16H14C14.663 16 15.2989 15.7366 15.7678 15.2678C16.2366 14.7989 16.5 14.163 16.5 13.5C16.5 12.837 16.2366 12.2011 15.7678 11.7322C15.2989 11.2634 14.663 11 14 11H10C9.86739 11 9.74022 10.9473 9.64645 10.8536C9.55268 10.7598 9.5 10.6326 9.5 10.5C9.5 10.3674 9.55268 10.2402 9.64645 10.1464C9.74022 10.0527 9.86739 10 10 10H15.5V8H13V6H11V8H10C9.33696 8 8.70107 8.26339 8.23223 8.73223C7.76339 9.20108 7.5 9.83696 7.5 10.5C7.5 11.163 7.76339 11.7989 8.23223 12.2678C8.70107 12.7366 9.33696 13 10 13H14C14.1326 13 14.2598 13.0527 14.3536 13.1464C14.4473 13.2402 14.5 13.3674 14.5 13.5C14.5 13.6326 14.4473 13.7598 14.3536 13.8536C14.2598 13.9473 14.1326 14 14 14H8.5Z"
+                fill="#12506D" />
+            </svg>
+          </div>
+          <div class="slidebar__content-balans">
+            <div class="content__header content_border">
+              <p style="font-size: 13px;">Баланс</p>
+            </div>
+            <div class="content__balans">
+              <div class="content__balans-item">
+                <p class="content__balans-text">Ліміт</p>
+                <p class="content__balans-price">100 005,00 UAH</p>
+              </div>
+              <div class="content__balans-item">
+                <p class="content__balans-text">Заборгованість</p>
+                <p class="content__balans-price">68,00 UAH</p>
+              </div>
+              <div class="content__balans-item">
+                <p class="content__balans-text" style="color: #F14960;">Протерміновано</p>
+                <p class="content__balans-price" style="color: #F14960;">68,00 UAH</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="slidebar__drop-right">
+          <div class="slidebar__icon-img">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 10H5.28988C5.10128 10.6337 5 11.305 5 12C5 15.866 8.13401 19 12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5C10.5128 5 9.13383 5.46381 8 6.25469V10ZM11.2072 12.2857L11.2365 7.17637H12.7628V11.6422L15.9513 14.8717L14.8712 15.9508L11.2072 12.2857Z"
+                fill="#12506D" />
+              <path
+                d="M11.9995 21.9C9.42076 21.8893 6.94702 20.8772 5.10038 19.0772C3.25374 17.2772 2.17866 14.8302 2.10205 12.2525H3.6294C3.6884 14.2101 4.43162 16.0851 5.72984 17.5515C7.02805 19.0179 8.79914 19.983 10.7352 20.2788C12.6712 20.5747 14.6496 20.1826 16.3266 19.1709C18.0035 18.1592 19.2728 16.5917 19.9137 14.7411C20.5547 12.8904 20.5268 10.8737 19.8349 9.04149C19.1429 7.20931 17.8308 5.67757 16.1265 4.71262C14.4222 3.74767 12.4336 3.41054 10.5066 3.75986C8.57947 4.10918 6.83576 5.12285 5.57862 6.6246L5.4292 6.80135L7.32959 8.70174H2.09912V3.47127L4.34424 5.71542L4.52198 5.51131C5.60843 4.25923 6.99188 3.29999 8.54545 2.72161C10.099 2.14322 11.7729 1.96421 13.4137 2.20098C15.0544 2.43775 16.6094 3.08272 17.9361 4.07674C19.2627 5.07076 20.3186 6.382 21.0067 7.89017C21.6948 9.39834 21.9932 11.0552 21.8745 12.7086C21.7558 14.3621 21.2238 15.9593 20.3273 17.3537C19.4308 18.7481 18.1985 19.8951 16.7435 20.6894C15.2884 21.4838 13.6572 21.9 11.9995 21.9Z"
+                fill="#12506D" />
+            </svg>
+          </div>
+        </a>
+        <a href="#" class="slidebar__drop-right">
+          <div class="slidebar__icon-img">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M9.95405 2.21C11.303 1.92713 12.6958 1.92645 14.045 2.208C14.1349 2.80129 14.3574 3.36669 14.6958 3.86218C15.0343 4.35767 15.4801 4.77051 16 5.07C16.5196 5.37053 17.1002 5.55007 17.6987 5.59525C18.2973 5.64044 18.8983 5.55012 19.457 5.331C20.3753 6.35906 21.0709 7.56604 21.5 8.876C21.0314 9.25058 20.6532 9.72595 20.3935 10.2668C20.1338 10.8076 19.9993 11.4 20 12C20 13.264 20.586 14.391 21.502 15.124C21.0704 16.4329 20.3739 17.6389 19.456 18.667C18.8974 18.448 18.2966 18.3578 17.6983 18.403C17.0999 18.4482 16.5195 18.6276 16 18.928C15.4805 19.2274 15.0351 19.64 14.6968 20.1351C14.3585 20.6302 14.1361 21.1952 14.046 21.788C12.6973 22.0715 11.3044 22.0729 9.95505 21.792C9.86559 21.1982 9.64335 20.6322 9.30487 20.1361C8.96638 19.6401 8.52038 19.2268 8.00005 18.927C7.48041 18.6266 6.89975 18.4473 6.30123 18.4023C5.70272 18.3572 5.10176 18.4477 4.54305 18.667C3.62464 17.6386 2.92905 16.4313 2.50005 15.121C2.96844 14.7466 3.34651 14.2716 3.60618 13.7311C3.86586 13.1906 4.00048 12.5986 4.00005 11.999C4.00054 11.3989 3.86575 10.8064 3.60571 10.2655C3.34568 9.72466 2.96707 9.24938 2.49805 8.875C2.92972 7.56612 3.62616 6.3601 4.54405 5.332C5.1027 5.55096 5.70352 5.6412 6.30184 5.59601C6.90017 5.55083 7.48061 5.37138 8.00005 5.071C8.51959 4.7716 8.96503 4.35903 9.30331 3.86391C9.64158 3.36879 9.864 2.80384 9.95405 2.211V2.21ZM12 15C12.7957 15 13.5588 14.6839 14.1214 14.1213C14.684 13.5587 15 12.7957 15 12C15 11.2044 14.684 10.4413 14.1214 9.87868C13.5588 9.31607 12.7957 9 12 9C11.2044 9 10.4413 9.31607 9.87873 9.87868C9.31612 10.4413 9.00005 11.2044 9.00005 12C9.00005 12.7957 9.31612 13.5587 9.87873 14.1213C10.4413 14.6839 11.2044 15 12 15Z"
+                fill="#12506D" />
+            </svg>
+          </div>
+        </a>
+        <a href="#" class="slidebar__drop-right">
+          <div class="slidebar__icon-img">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4 18H6V20H18V4H6V6H4V3C4 2.73478 4.10536 2.48043 4.29289 2.29289C4.48043 2.10536 4.73478 2 5 2H19C19.2652 2 19.5196 2.10536 19.7071 2.29289C19.8946 2.48043 20 2.73478 20 3V21C20 21.2652 19.8946 21.5196 19.7071 21.7071C19.5196 21.8946 19.2652 22 19 22H5C4.73478 22 4.48043 21.8946 4.29289 21.7071C4.10536 21.5196 4 21.2652 4 21V18ZM6 11H13V13H6V16L1 12L6 8V11Z"
+                fill="#12506D" />
+            </svg>
+          </div>
+          <div class="slidebar__content-exit">
+            <div class="content__header">
+              <p>Выход</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <div class="butonup">
+    <a href="#"><img src="img/buttton-up.svg" alt=""></a>
+  </div>
+  <div class="container">
+    <section class="categories">
+      <div class="row">
+        <div class="col-3">
+          <div class="categories__dropdowns">
+            <div class="dropdowns__content">
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/1.svg" alt="">
+                  <p class="dropdowns__text">Масла и тормозная жидкость</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/2.svg" alt="">
+                  <p class="dropdowns__text">Детали рулевого управления</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/3.svg" alt="">
+                  <p class="dropdowns__text">Лампочки</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/4.svg" alt="">
+                  <p class="dropdowns__text">Разное</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/5.svg" alt="">
+                  <p class="dropdowns__text">Трансмиссия</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/6.svg" alt="">
+                  <p class="dropdowns__text">Фильтры</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/7.svg" alt="">
+                  <p class="dropdowns__text">Система охлаждения</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/8.svg" alt="">
+                  <p class="dropdowns__text">Детали подвески</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/9.svg" alt="">
+                  <p class="dropdowns__text">Електрооборудование</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/10.svg" alt="">
+                  <p class="dropdowns__text">Рессоры и Стремянки</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/1.svg" alt="">
+                  <p class="dropdowns__text">Масла и тормозная жидкость</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/2.svg" alt="">
+                  <p class="dropdowns__text">Детали рулевого управления</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/3.svg" alt="">
+                  <p class="dropdowns__text">Лампочки</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/4.svg" alt="">
+                  <p class="dropdowns__text">Разное</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/5.svg" alt="">
+                  <p class="dropdowns__text">Трансмиссия</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/6.svg" alt="">
+                  <p class="dropdowns__text">Фильтры</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/7.svg" alt="">
+                  <p class="dropdowns__text">Система охлаждения</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/8.svg" alt="">
+                  <p class="dropdowns__text">Детали подвески</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/9.svg" alt="">
+                  <p class="dropdowns__text">Електрооборудование</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+              <div class="dropdowns__item">
+                <div class="dropdowns__items">
+                  <img src="img/dropdowns/icon/10.svg" alt="">
+                  <p class="dropdowns__text">Рессоры и Стремянки</p>
+                </div>
+                <img src="img/dropdowns/arrow_right.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/swiper/bg.jpg" alt="">
+                <div class="swiper__inner">
+                  <h2 class="swiper__title">Фильтр топливный Mercedes Actros OM-501LA</h2>
+                  <div class="swiper__item">
+                    <p class="swiper__subtitle">Акционные комплекты встраиваемой техники по выгодной цене!</p>
+                    <a href="#" class="swiper__btn">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/swiper/bg.jpg" alt="">
+                <div class="swiper__inner">
+                  <h2 class="swiper__title">Фильтр топливный Mercedes Actros OM-501LA</h2>
+                  <div class="swiper__item">
+                    <p class="swiper__subtitle">Акционные комплекты встраиваемой техники по выгодной цене!</p>
+                    <a href="#" class="swiper__btn">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/swiper/bg.jpg" alt="">
+                <div class="swiper__inner">
+                  <h2 class="swiper__title">Фильтр топливный Mercedes Actros OM-501LA</h2>
+                  <div class="swiper__item">
+                    <p class="swiper__subtitle">Акционные комплекты встраиваемой техники по выгодной цене!</p>
+                    <a href="#" class="swiper__btn">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/swiper/bg.jpg" alt="">
+                <div class="swiper__inner">
+                  <h2 class="swiper__title">Фильтр топливный Mercedes Actros OM-501LA</h2>
+                  <div class="swiper__item">
+                    <p class="swiper__subtitle">Акционные комплекты встраиваемой техники по выгодной цене!</p>
+                    <a href="#" class="swiper__btn">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/swiper/bg.jpg" alt="">
+                <div class="swiper__inner">
+                  <h2 class="swiper__title">Фильтр топливный Mercedes Actros OM-501LA</h2>
+                  <div class="swiper__item">
+                    <p class="swiper__subtitle">Акционные комплекты встраиваемой техники по выгодной цене!</p>
+                    <a href="#" class="swiper__btn">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/swiper/bg.jpg" alt="">
+                <div class="swiper__inner">
+                  <h2 class="swiper__title">Фильтр топливный Mercedes Actros OM-501LA</h2>
+                  <div class="swiper__item">
+                    <p class="swiper__subtitle">Акционные комплекты встраиваемой техники по выгодной цене!</p>
+                    <a href="#" class="swiper__btn">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="orders">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="profile">
+            <div class="profile__icon">
+              <img src="img/photo.png" alt="" class="profile__img">
+            </div>
+            <div class="profile__name">
+              <p class="name__title">Іван Іванов</p>
+            </div>
+            <div class="profile__price">
+              <div class="price__usd">
+                <p class="price__usd-title">USD</p>
+                <span class="price__usd-subtitle">28.00</span>
+              </div>
+              <div class="price__eur">
+                <p class="price__usd-title">EUR</p>
+                <span class="price__usd-subtitle">33.00</span>
+              </div>
+            </div>
+            <div class="profile__dropdowns">
+              <div class="profile__dropdowns-inner">
+                <div class="profile__dropdowns-header">
+                  <p class="profile__dropdowns-title">Выбранный контрагент:</p>
+                </div>
+                <div class="profile__dropdowns-item">
+                  <select name="select1" class="profile__dropdowns-select">
+                    <option class="profile__dropdowns-item__title">ФОП Шина Резина</option>
+                    <div class="profile__dropdowns-content">
+                      <option class="profile__content-item">
+                        <p class="profile__content-info">1</p>
+                      </option>
+                      <option class="profile__content-item">
+                        <p class="profile__content-info">1</p>
+                      </option>
+                      <option class="profile__content-item">
+                        <p class="profile__content-info">1</p>
+                      </option>
+                      <option class="profile__content-item">
+                        <p class="profile__content-info">1</p>
+                      </option>
+                    </div>
+                  </select>
+                  </div>
+                </div>
+                <div class="profile__dropdowns-inner">
+                  <div class="profile__dropdowns-header">
+                    <p class="profile__dropdowns-title">Выбранный контрагент:</p>
+                  </div>
+                  <div class="profile__dropdowns-item">
+                    <select name="select2" class="profile__dropdowns-select">
+                      <option class="profile__dropdowns-item__title">Зимняя програма 2020</option>
+                      <img src="img/Polygon.svg" alt="" class="profile__dropdowns-img">
+                      <div class="profile__dropdowns-content">
+                        <option class="profile__content-item">
+                          <p class="profile__content-info">1</p>
+                        </option>
+                        <option class="profile__content-item">
+                          <p class="profile__content-info">1</p>
+                        </option>
+                        <option class="profile__content-item">
+                          <p class="profile__content-info">1</p>
+                        </option>
+                        <option class="profile__content-item">
+                          <p class="profile__content-info">1</p>
+                        </option>
+                      </div>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="manager">
+                <div class="manager__info">
+                  <div class="manager__icon">
+                    <img src="img/manager.png" alt="" class="manager__icon-img">
+                  </div>
+                  <div class="manager__item">
+                    <div class="manager__name">
+                      <p>Ткачук Ярослава</p>
+                    </div>
+                    <div class="manager__text">
+                      <p>Ваш персональный менеджер</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact">
+                  <div class="manager__header">
+                    <p class="manager__title">Контакти:</p>
+                  </div>
+                  <div class="contact__tel">
+                    <a href="tel:380989877886"><img src="img/manager/tel.svg" alt="">+38 (098) 987 78 86</a>
+                  </div>
+                  <div class="contact__mail">
+                    <a href="#"><img src="img/manager/mail.svg" alt="">manaager@gmail.com</a>
+                  </div>
+                </div>
+                <div class="massenger">
+                  <div class="manager__header">
+                    <p class="manager__title">Мессенджеры:</p>
+                  </div>
+                  <div class="massenger__item">
+                    <div class="massenger__telegram">
+                      <a href="#"><img src="img/manager/telegram.svg" alt="">Telegram</a>
+                    </div>
+                    <div class="massenger__viber">
+                      <a href="#"><img src="img/manager/viber.svg" alt="">Viber</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="row">
+              <div class="col-12">
+                <div class="order">
+                  <div class="order__item">
+                    <div class="order__header">
+                      <h2 class="order__title">Последние заказы</h2>
+                    </div>
+                    <div class="order__button">
+                      <a href="#" class="order__btn">Просмотреть все</a>
+                      <img src="img/order/arrow-right.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="order__table">
+                    <table class="table">
+                      <tr class="table__header">
+                        <th>№</th>
+                        <th>Номер</th>
+                        <th>Дата создания</th>
+                        <th>Договор</th>
+                        <th>Статус</th>
+                        <th>Статус оплаты</th>
+                        <th>Доставка</th>
+                        <th>Сумма</th>
+                      </tr>
+                      <tr class="table__main">
+                        <th class="table__title">1</th>
+                        <th>СИ000000020</th>
+                        <th>2021-07-07 15:26:18</th>
+                        <th>Основной договор</th>
+                        <th class="table__stats shipped">Отгружен</th>
+                        <th>Не оплачен</th>
+                        <th>Служба доставки</th>
+                        <th class="table__pay">1 866,00 UAH</th>
+                      </tr>
+                      <tr class="table__main">
+                        <th class="table__title">2</th>
+                        <th>СИ000000020</th>
+                        <th>2021-07-07 15:26:18</th>
+                        <th>Основной договор</th>
+                        <th class="table__stats closed">Закрыт</th>
+                        <th>Не оплачен</th>
+                        <th>Служба доставки</th>
+                        <th class="table__pay">1 866,00 UAH</th>
+                      </tr>
+                      <tr class="table__main">
+                        <th class="table__title">3</th>
+                        <th>СИ000000020</th>
+                        <th>2021-07-07 15:26:18</th>
+                        <th>Основной договор</th>
+                        <th class="table__stats closed">Закрыт</th>
+                        <th>Не оплачен</th>
+                        <th>Служба доставки</th>
+                        <th class="table__pay">1 866,00 UAH</th>
+                      </tr>
+                      <tr class="table__main">
+                        <th class="table__title">4</th>
+                        <th>СИ000000020</th>
+                        <th>2021-07-07 15:26:18</th>
+                        <th>Основной договор</th>
+                        <th class="table__stats process">В процессе</th>
+                        <th>Не оплачен</th>
+                        <th>Служба доставки</th>
+                        <th class="table__pay">1 866,00 UAH</th>
+                      </tr>
+                      <tr class="table__main">
+                        <th class="table__title">5</th>
+                        <th>СИ000000020</th>
+                        <th>2021-07-07 15:26:18</th>
+                        <th>Основной договор</th>
+                        <th class="table__stats process">В процессе</th>
+                        <th>Не оплачен</th>
+                        <th>Служба доставки</th>
+                        <th class="table__pay">1 866,00 UAH</th>
+                      </tr>
+                      <tr class="table__main">
+                        <th class="table__title">6</th>
+                        <th>СИ000000020</th>
+                        <th>2021-07-07 15:26:18</th>
+                        <th>Основной договор</th>
+                        <th class="table__stats process">В процессе</th>
+                        <th>Не оплачен</th>
+                        <th>Служба доставки</th>
+                        <th class="table__pay">1 866,00 UAH</th>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="offers">
+                  <div class="order__header">
+                    <h2 class="order__title">Специальные предложения</h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">
+                      <a href="#" class="offers__item procent">
+                        <div class="offers__procent-img">
+                          <img src="img/offers/procent.svg" alt="" class="procent__img">
+                        </div>
+                        <div class="offers__procent-text procent_ac">
+                          <p class="procent__text">Акции</p>
+                          <img src="img/offers/arrow.svg" alt="">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-4">
+                      <a href="#" class="offers__item top">
+                        <div class="offers__procent-img">
+                          <img src="img/offers/Top.svg" alt="" class="procent__img">
+                        </div>
+                        <div class="offers__procent-text">
+                          <p class="procent__text">Популярное</p>
+                          <img src="img/offers/arrow.svg" alt="">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-4">
+                      <a href="#" class="offers__item new">
+                        <div class="offers__procent-img">
+                          <img src="img/offers/New.svg" alt="" class="procent__img">
+                        </div>
+                        <div class="offers__procent-text procent_ac">
+                          <p class="procent__text">Новые</p>
+                          <img src="img/offers/arrow.svg" alt="">
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="price">
+                  <div class="order__item">
+                    <div class="order__header">
+                      <h2 class="order__title">Баланс</h2>
+                    </div>
+                    <div class="order__button">
+                      <a href="#" class="order__btn">Просмотреть все</a>
+                      <img src="img/order/arrow-right.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="price__inner">
+                    <div class="price__item">
+                      <p class="price__text">Задолженность</p>
+                      <p class="price__usd">200 000.00 USD</p>
+                    </div>
+                    <div class="price__item">
+                      <p class="price__text">Просроченная</p>
+                      <p class="price__usd">244 402.01 USD</p>
+                    </div>
+                    <div class="price__item">
+                      <p class="price__text">Лимит</p>
+                      <p class="price__usd">0 USD</p>
+                    </div>
+                  </div>
+                  <div class="price__bottom">
+                    <p class="price__bottom-text">Просроченая задолженость</p>
+                    <p class="price__bottom-usd">244 402.01 USD</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <div class="container">
+    <section class="promotions">
+      <div class="promotions__inner">
+        <div class="promotions__item">
+          <div class="promotions__header">
+            <div class="procent none">
+              <div class="offers__procent-img">
+                <img src="img/offers/procent.svg" alt="" class="procent__img">
+              </div>
+            </div>
+            <h2 class="promotions__title">Акции</h2>
+          </div>
+          <div class="promotions__link">
+            <a href="#">Все товары в этой категории</a>
+          </div>
+        </div>
+        <div class="swiper__content">
+          <div class="swiper-container swiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next button_next"></div>
+            <div class="swiper-button-prev button_prev"></div>
+          </div>
+        </div>
+      </div>
+      <div class="promotions__inner">
+        <div class="promotions__item">
+          <div class="promotions__header">
+            <div class="new none">
+              <div class="offers__procent-img">
+                <img src="img/offers/New.svg" alt="" class="procent__img">
+              </div>
+            </div>
+            <h2 class="promotions__title">Новые</h2>
+          </div>
+          <div class="promotions__link">
+            <a href="#" style="color: #1BCCBA;">Все товары в этой категории</a>
+          </div>
+        </div>
+        <div class="swiper__content">
+          <div class="swiper-container swiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_grean">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_grean">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_grean">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_grean">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_grean">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_grean">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next button_next"></div>
+            <div class="swiper-button-prev button_prev"></div>
+          </div>
+        </div>
+      </div>
+      <div class="promotions__inner">
+        <div class="promotions__item">
+          <div class="promotions__header">
+            <div class="top none">
+              <div class="offers__procent-img">
+                <img src="img/offers/Top.svg" alt="" class="procent__img">
+              </div>
+            </div>
+            <h2 class="promotions__title">Популярное</h2>
+          </div>
+          <div class="promotions__link">
+            <a href="#" style="color:#F14960;">Все товары в этой категории</a>
+          </div>
+        </div>
+        <div class="swiper__content">
+          <div class="swiper-container swiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_red">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_red">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_red">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_red">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_red">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper_height">
+                <div class="procent__swiper">
+                  <div class="card__procent procent_red">
+                    <div class="card__procent-img">
+                      <img src="img/card.png" alt="">
+                    </div>
+                    <div class="card__topheader">
+                      <p class="card__toptitle">Артикул: 01-02-00-1077</p>
+                    </div>
+                    <div class="card__header">
+                      <h3 class="card__title">Фильтр топливный Mercedes Actros OM-501LA</h3>
+                    </div>
+                    <div class="card__price">
+                      <p class="card__price-title">Ваша цена</p>
+                      <p class="card__price-text">12 264,00 UAH</p>
+                    </div>
+                    <div class="card__available">
+                      <div class="card__available-item">
+                        <p>Есть в наличии</p>
+                        <p>3/3</p>
+                      </div>
+                      <img src="img/card/info.svg" alt="">
+                    </div>
+                    <div class="card__brend">
+                      <p>Бренд: YNY</p>
+                    </div>
+                    <div class="card__number">
+                      <div class="card__number-items">
+                        <span>1</span>
+                      </div>
+                      <div class="card__number-arrow">
+                        <button><img src="img/card/arrow_up.svg" alt=""></button>
+                        <button><img src="img/card/arrow_down.svg" alt=""></button>
+                      </div>
+                      <div class="card__number-button">
+                        <a href="#" class="card__number-btn"><img src="img/card/basket.svg" alt="">Купить</a>
+                      </div>
+                      <a href="#" class="card__number-img">
+                        <img src="img/card/storage.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next button_next"></div>
+            <div class="swiper-button-prev button_prev"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="img">
+    <div class="img__item">
+      <img src="img/images/1.png" alt="">
+    </div>
+    <div class="img__item">
+      <img src="img/images/2.png" alt="">
+    </div>
+    <div class="img__item">
+      <img src="img/images/3.png" alt="">
+    </div>
+    <div class="img__item">
+      <img src="img/images/4.png" alt="">
+    </div>
+    <div class="img__item">
+      <img src="img/images/5.png" alt="">
+    </div>
+    <div class="img__item">
+      <img src="img/images/6.png" alt="">
+    </div>
+    <div class="img__item">
+      <img src="img/images/1.png" alt="">
+    </div>
+    <div class="img__item">
+      <img src="img/images/2.png" alt="">
+    </div>
+    <div class="img__item">
+      <img src="img/images/3.png" alt="">
+    </div>
+  </section>
+  <section class="news">
+    <div class="container">
+      <div class="news__header">
+        <h2 class="news__title">Новости</h2>
+        <a href="#" class="news__btn">Все новости</a>
+      </div>
+      <div class="news__inner">
+        <div class="row">
+          <div class="col-3">
+            <div class="news__item">
+              <div class="news__img">
+                <img src="img/news/1.jpg" alt="">
+              </div>
+              <div class="news__block">
+                <div class="news__data">
+                  <p>12/10/2021</p>
+                </div>
+                <div class="news__item-title">
+                  <p>Обновления #4 B2B платформы ClouB: шаблоны доставки, всплывающие подсказки</p>
+                </div>
+                <div class="news__item-info">
+                  <p>Оновлення від команди ClouB</p>
+                </div>
+                <div class="news__item-btn">
+                  <a href="#">#обновления</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="news__item">
+              <div class="news__img">
+                <img src="img/news/2.jpg" alt="">
+              </div>
+              <div class="news__block">
+                <div class="news__data">
+                  <p>12/10/2021</p>
+                </div>
+                <div class="news__item-title">
+                  <p>В Раді планують розширити пільги на електрокари.</p>
+                </div>
+                <div class="news__item-info">
+                  <p>У Верховній Раді хочуть створити умови для розвитку ринку та виробництва електрокарів.</p>
+                </div>
+                <div class="news__item-btn">
+                  <a href="#">#Украина новости</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="news__item">
+              <div class="news__img">
+                <img src="img/news/3.jpg" alt="">
+              </div>
+              <div class="news__block">
+                <div class="news__data">
+                  <p>12/10/2021</p>
+                </div>
+                <div class="news__item-title">
+                  <p>Оновлення #3 від команди ClouB: кабінет Менеджера, імпорт зображень, сортування</p>
+                </div>
+                <div class="news__item-info">
+                  <p>У Верховній Раді хочуть створити умови для розвитку ринку та виробництва електрокарів.
+                    розвитку ринку та виробництва електрокарів.v</p>
+                </div>
+                <div class="news__item-btn">
+                  <a href="#">#обновления</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="news__item">
+              <div class="news__img">
+                <img src="img/news/4.jpg" alt="">
+              </div>
+              <div class="news__block">
+                <div class="news__data">
+                  <p>12/10/2021</p>
+                </div>
+                <div class="news__item-title">
+                  <p>Акція Donaldson весна 2020 р.</p>
+                </div>
+                <div class="news__item-info">
+                  <p>Акція! З 1 травня по 31 травня 2020 року - Останній місяць весни разом з Donaldson!</p>
+                </div>
+                <div class="news__item-btn">
+                  <a href="#">#акция</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="news__header news_buttom">
+        <h2 class="news__title">Интернет магазин запчастей для грузовиков</h2>
+      </div>
+      <div class="news__info">
+        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia in turpis eget
+          congue. In vestibulum augue quis pharetra pulvinar. Cras semper consequat justo vel maximus. Nam lacinia
+          eleifend nibh et rhoncus. Nunc nulla nisl, rhoncus vitae tellus quis, accumsan laoreet massa. Mauris non augue
+          ipsum. Etiam sit amet pretium velit. Proin sodales metus eget metus semper, eu venenatis augue luctus. Nullam
+          a urna mauris. Ut id euismod purus. Duis vel ipsum libero.</p>
+        <p class="news__text">
+          Maecenas iaculis nisi in rutrum cursus. Phasellus dolor nibh, imperdiet in sapien vitae, eleifend ornare
+          neque. Sed mattis ex felis, ut sagittis est vulputate nec. Integer vel metus pharetra, placerat magna at,
+          dictum sem. Donec non molestie tellus. Pellentesque vehicula mi at lectus volutpat, at egestas ligula commodo
+          Nam sed semper leo, eget vulputate augue. Ut egestas, orci luctus cursus blandit, tortor magna fermentum
+          justo, ac tempor arcu massa consequat ante. Donec sit amet ornare diam, vel interdum tellus. Pellentesque
+          elementum tempus est sit amet rutrum. Nunc id enim fermentum, condimentum eros ac, finibus nulla. Vivamus
+          mauris mi, posuere in semper a, tristique porttitor nibh. Donec convallis eleifend sollicitudin. Suspendisse
+          ipsum enim, vehicula ut arcu ac, lacinia accumsan elit. Ut lorem lacus, feugiat vitae urna ac, tristique
+          laoreet massa.</p>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+          <div class="footer__item">
+            <div class="footer__logo">
+              <a href="#"><img src="img/footer__logo.svg" alt=""></a>
+            </div>
+            <div class="footer__right">
+              <p>СLOUB. ALL RIGHT RESERVED</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="footer__item" style="padding-left: 65px;">
+            <div class="footer__nav-header">
+              <p class="footer__nav-title">Навигация</p>
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__list">
+                <li class="footer__items"><a href="#" class="footer__link">Каталог</a></li>
+                <li class="footer__items"><a href="#" class="footer__link">Про компанию</a></li>
+                <li class="footer__items"><a href="#" class="footer__link">Способы доставки</a></li>
+                <li class="footer__items"><a href="#" class="footer__link">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="footer__item" style="padding-left: 95px">
+            <div class="footer__nav-header">
+              <p class="footer__nav-title">Режим работы</p>
+            </div>
+            <nav class="footer__nav d-flex">
+              <ul class="footer__list" style="padding-right: 48px;">
+                <li class="footer__items">
+                  <p class="footer__link footer_subtitle">Call-центр</p>
+                </li>
+                <li class="footer__items d-flex">
+                  <p class="footer__link" style="padding-right: 12px;">пн-пт:</p>
+                  <p class="footer__link">9:00-18:00</p>
+                </li>
+                <li class="footer__items d-flex">
+                  <p class="footer__link" style="padding-right: 12px;">вс:</p>
+                  <p class="footer__link">выходной</p>
+                </li>
+              </ul>
+              <ul class="footer__list">
+                <li class="footer__items">
+                  <p class="footer__link footer_subtitle">Доставка заказов</p>
+                </li>
+                <li class="footer__items d-flex">
+                  <p class="footer__link" style="padding-right: 12px;">пн-пт:</p>
+                  <p class="footer__link">9:00-17:30</p>
+                </li>
+                <li class="footer__items d-flex">
+                  <p class="footer__link" style="padding-right: 12px;">вс:</p>
+                  <p class="footer__link">9:00-15:00</p>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="footer__item" style="padding-left: 50px;">
+            <div class="footer__nav-header">
+              <p class="footer__nav-title">Мессенджери</p>
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__list">
+                <li class="footer__items">
+                  <a href="tel:38987654321" class="footer__link">
+                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M18.2958 11.5775C18.8924 6.55502 18.0091 3.38419 16.4158 1.95002L16.4166 1.94919C13.8449 -0.49998 5.15994 -0.86248 2.08328 2.05919C0.701611 3.48835 0.214944 5.58586 0.161611 8.18252C0.108277 10.78 0.0449442 15.6459 4.57911 16.9659H4.58328L4.57911 18.9817C4.57911 18.9817 4.54828 19.7984 5.06994 19.9625C5.66661 20.1559 5.93661 19.7767 7.79244 17.56C10.8958 17.8292 13.2791 17.2125 13.5499 17.1225C14.1766 16.9125 17.7224 16.4434 18.2958 11.5775Z"
+                        fill="white" />
+                      <path
+                        d="M9.18508 3.58081C8.86425 3.58081 8.86425 4.08081 9.18508 4.08498C11.6742 4.10414 13.7242 5.83914 13.7467 9.02164C13.7467 9.35748 14.2384 9.35331 14.2343 9.01748H14.2334C14.2068 5.58831 11.9684 3.59998 9.18508 3.58081Z"
+                        fill="#041016" />
+                      <path
+                        d="M12.4592 8.4942C12.4517 8.82586 12.9425 8.8417 12.9467 8.50586C12.9875 6.61503 11.8217 5.05753 9.63086 4.89336C9.31003 4.87003 9.2767 5.3742 9.5967 5.39753C11.4967 5.5417 12.4975 6.83836 12.4592 8.4942Z"
+                        fill="#041016" />
+                      <path
+                        d="M11.9341 10.645C11.5225 10.4067 11.1033 10.555 10.93 10.7892L10.5675 11.2583C10.3833 11.4967 10.0391 11.465 10.0391 11.465C7.52747 10.8008 6.85581 8.17251 6.85581 8.17251C6.85581 8.17251 6.82497 7.81667 7.05497 7.62584L7.50831 7.25084C7.73497 7.07084 7.8783 6.63751 7.64747 6.21167C7.03081 5.09751 6.61664 4.71334 6.40581 4.41834C6.18414 4.14084 5.85081 4.07834 5.50414 4.26584H5.49664C4.77581 4.68751 3.98664 5.47667 4.23914 6.28917C4.66997 7.14584 5.46164 9.87667 7.98497 11.94C9.1708 12.9158 11.0475 13.9158 11.8441 14.1467L11.8516 14.1583C12.6366 14.42 13.4 13.6 13.8075 12.8575V12.8517C13.9883 12.4925 13.9283 12.1525 13.6641 11.93C13.1958 11.4733 12.4891 10.9692 11.9341 10.645Z"
+                        fill="#041016" />
+                      <path
+                        d="M9.97425 6.75348C10.7751 6.80015 11.1634 7.21848 11.2051 8.07765C11.2201 8.41348 11.7076 8.39015 11.6926 8.05432C11.6393 6.93265 11.0543 6.30765 10.0009 6.24931C9.68008 6.23015 9.65008 6.73431 9.97425 6.75348Z"
+                        fill="#041016" />
+                    </svg>
+                    +38 (98) 765 43 21</a>
+                </li>
+                <li class="footer__items">
+                  <a href="tel:38987654321" class="footer__link">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M19.2951 11.6782C19.3697 11.1005 19.4125 10.519 19.4233 9.93648C19.419 8.67719 19.1798 7.42992 18.7182 6.25942C18.2162 5.13563 17.5219 4.10937 16.6669 3.22747C15.8099 2.35959 14.7843 1.67882 13.6541 1.22766C12.5041 0.71282 11.2589 0.448989 10.0002 0.453547C9.39683 0.453954 8.79517 0.518828 8.20537 0.647076C7.40247 0.199187 6.49482 -0.0235978 5.57717 0.00197859C4.09808 0.00197859 2.67956 0.593278 1.63369 1.6458C0.587811 2.69832 0.000244141 4.12584 0.000244141 5.61433C0.00673929 6.56255 0.24916 7.49404 0.705373 8.32374C0.6309 8.85828 0.588089 9.39682 0.577168 9.93648C0.572639 11.2031 0.834804 12.4563 1.3464 13.6135C1.79471 14.7509 2.47118 15.783 3.33358 16.6455C4.19889 17.5194 5.22129 18.2199 6.3464 18.7098C7.5095 19.1743 8.74891 19.415 10.0002 19.4194L11.6669 19.2904C12.5144 19.7498 13.4607 19.9934 14.4233 20C15.9024 20 17.3209 19.4087 18.3668 18.3562C19.4127 17.3037 20.0002 15.8761 20.0002 14.3877C19.9937 13.4394 19.7513 12.5079 19.2951 11.6782ZM10.0643 15.7424C6.66691 15.7424 5.19255 14.1296 5.19255 12.8394C5.19228 12.6983 5.22077 12.5586 5.27628 12.4289C5.33178 12.2993 5.41312 12.1825 5.51525 12.0858C5.61739 11.989 5.73815 11.9144 5.87009 11.8665C6.00202 11.8186 6.14231 11.7984 6.2823 11.8073C7.75666 11.8073 7.37204 13.8716 10.0643 13.8716C11.4105 13.8716 12.1797 13.0975 12.1797 12.3233C12.1797 11.5492 11.9233 11.3557 11.0259 11.1622L8.07717 10.388C5.64127 9.80746 5.25666 8.51727 5.25666 7.22707C5.25666 4.71119 7.62845 3.74354 9.87204 3.74354C12.1156 3.74354 14.3592 4.90472 14.3592 6.45295C14.3515 6.603 14.3132 6.74985 14.2468 6.8844C14.1803 7.01894 14.0871 7.1383 13.9729 7.23509C13.8587 7.33187 13.7259 7.404 13.5829 7.44701C13.4398 7.49002 13.2895 7.50299 13.1413 7.48511C11.9233 7.48511 12.1156 5.74335 9.67973 5.74335C8.46178 5.74335 7.75665 6.32393 7.75665 7.09805C7.75665 7.87217 8.71819 8.19472 9.55153 8.38825L11.7951 8.83982C14.1669 9.4204 14.8079 10.8396 14.8079 12.1298C14.8079 13.42 13.2054 15.7424 10.0643 15.7424Z"
+                          fill="white" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    +38 (98) 765 43 21</a>
+                </li>
+                <li class="footer__items">
+                  <a href="tel:38987654321" class="footer__link">
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M19.824 1.97363L13.7584 8.00016L19.824 14.0267C19.9337 13.7975 20.0002 13.5441 20.0002 13.2736V2.72672C20.0002 2.45613 19.9337 2.20281 19.824 1.97363Z"
+                        fill="white" />
+                      <path
+                        d="M18.242 0.96875H1.7576C1.48702 0.96875 1.2337 1.03527 1.00452 1.14492L8.75698 8.85832C9.44244 9.54379 10.5571 9.54379 11.2426 8.85832L18.9951 1.14492C18.7659 1.03527 18.5126 0.96875 18.242 0.96875Z"
+                        fill="white" />
+                      <path
+                        d="M0.176172 1.97363C0.0665234 2.20281 0 2.45613 0 2.72672V13.2736C0 13.5442 0.0665234 13.7975 0.176172 14.0267L6.24176 8.00016L0.176172 1.97363Z"
+                        fill="white" />
+                      <path
+                        d="M12.9295 8.82861L12.0712 9.68693C10.929 10.8291 9.07053 10.8291 7.92838 9.68693L7.0701 8.82861L1.00452 14.8551C1.2337 14.9648 1.48702 15.0313 1.7576 15.0313H18.242C18.5126 15.0313 18.7659 14.9648 18.9951 14.8551L12.9295 8.82861Z"
+                        fill="white" />
+                    </svg>
+                    +38 (98) 765 43 21</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-2" style="text-align: right;">
+          <div class="footer__nav-header">
+            <p class="footer__nav-title">Мессенджери</p>
+          </div>
+          <div class="footer__logo-cloub">
+            <img src="img/social/footer__cloub-blue.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
